@@ -6,11 +6,21 @@
 int main(void)
 {
 	int n;
+	int m;
 
 	for (n = 0; n < 10; n++)
 	{
-		putchar(n + '0'
+		for (m = 0; m < 10; m++)
+		{
+			if (n < m && n != m)
+			{
+			putchar(n + '0');
+			putchar(m + '0');
+			putchsr('.');
+			putchsr(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
-}
+;
+	}
