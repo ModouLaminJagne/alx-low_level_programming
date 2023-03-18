@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Determin if a number is 
- * */
+ * main - Determin if a number is positive, negative or zero
+ * Return: 0 (Success)
+ */
 
 /* betty style doc for function main goes there */
 int main(void)
