@@ -13,7 +13,7 @@ int main(void)
 		k += j;
 		if (k % 2 == 0)
 		{
-			sum += j;
+			sum += k;
 			j = k - j;
 			++i;
 		}
