@@ -9,14 +9,14 @@ int main() {
 	int temp;
 	int i;
 
-	printf("%d %d ", prev, curr);
+	printf("%d, %d, ", prev, curr);
 
 	for (i = 3; i <= 98; i++) 
 	{
 	temp = curr;
 	curr = prev + curr;
 	prev = temp;
-	printf("%d ", curr);
+	printf(", %d, ", curr);
 	}
 	printf("\n");
 	return 0;
