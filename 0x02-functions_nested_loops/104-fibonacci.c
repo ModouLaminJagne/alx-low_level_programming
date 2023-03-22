@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * main - finds and prints the first 98 Fibonacci numbers, starting with 1 and 2,
+ * main - finds and prints the first 98 Fibonacci numbers starting with 1 and 2
  * Return: always 0
  */
-int main() {
+int main(void)
+{
 
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
