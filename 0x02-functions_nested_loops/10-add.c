@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * int add - adds two numbers
+ * add - adds two numbers
+ * n1, n2: numbers to be added
  * Return: sum of numbers
  */
 int add(int n1, int n2)
