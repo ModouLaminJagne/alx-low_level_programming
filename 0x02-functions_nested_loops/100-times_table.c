@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  * print_times_table - Print the n times table
+ * @n: number to compute on
+ * @num, mult, prod: computations
  * Return: the n time tables
  */
 void print_times_table(int n)
