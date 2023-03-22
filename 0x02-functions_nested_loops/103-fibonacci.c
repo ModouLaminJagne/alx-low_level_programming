@@ -12,7 +12,7 @@ int main (void)
 	{
 		k += j;
 		j = k - j;
-		++i
+		++i;
 	}
 	printf("%ld\n", sum);
 	return (0);
