@@ -16,7 +16,7 @@ int main() {
 	temp = curr;
 	curr = prev + curr;
 	prev = temp;
-	printf(", %d, ", curr);
+	printf("%d, ", curr);
 	}
 	printf("\n");
 	return 0;
