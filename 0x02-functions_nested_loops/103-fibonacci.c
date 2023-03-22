@@ -10,9 +10,13 @@ int main(void)
 
 	while (k * j < 4000000)
 	{
-		sum += j;
-		j = k - j;
-		++i;
+		k += j;
+		if (k % 2 == 0)
+		{
+			sum += j;
+			j = k - j;
+			++i;
+		}
 	}
 	printf("%ld\n", sum);
 	return (0);
