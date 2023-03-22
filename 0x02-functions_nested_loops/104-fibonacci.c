@@ -4,14 +4,11 @@
  * Return: always 0
  */
 int main() {
-    // initialize variables
 	int prev = 1;
 	int curr = 2;
-    
-    // print the first two Fibonacci numbers
+
 	printf("%d %d ", prev, curr);
-    
-    // loop to print the remaining 96 Fibonacci numbers
+
 	for (int i = 3; i <= 98; i++) 
 	{
 	int temp = curr;
