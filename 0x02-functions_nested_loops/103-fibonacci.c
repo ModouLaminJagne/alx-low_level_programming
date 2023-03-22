@@ -13,7 +13,7 @@ int main(void)
 		{
 			sum += k;
 		}
-		long temp = k;
+		int temp = k;
 		k = j + k;
 		j = temp;
 	}
