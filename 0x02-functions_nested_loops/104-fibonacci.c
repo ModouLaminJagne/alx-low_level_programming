@@ -6,17 +6,19 @@
 int main() {
 	int prev = 1;
 	int curr = 2;
+	int temp;
+	int i;
 
 	printf("%d %d ", prev, curr);
 
-	for (int i = 3; i <= 98; i++) 
+	for (i = 3; i <= 98; i++) 
 	{
-	int temp = curr;
+	temp = curr;
 	curr = prev + curr;
 	prev = temp;
 	printf("%d ", curr);
 	}
-    printf("\n");
+	printf("\n");
 	return 0;
 }
 
