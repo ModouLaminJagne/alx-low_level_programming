@@ -6,6 +6,7 @@
 int main(void)
 {
 	long j = 1, k = 2, sum = 0;
+	int temp;
 
 	while (k <= 4000000)
 	{
@@ -13,7 +14,7 @@ int main(void)
 		{
 			sum += k;
 		}
-		int temp = k;
+		temp = k;
 		k = j + k;
 		j = temp;
 	}
