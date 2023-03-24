@@ -29,5 +29,8 @@ int main(void)
     _putchar(' ');
     _putchar(r + '0');
     _putchar('\n');
+    
+    more_numbers();
+    
     return (0);
 }

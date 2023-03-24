@@ -18,5 +18,8 @@ int main(void)
     r = _isalpha(';');
     _putchar(r + '0');
     _putchar('\n');
+    
+    print_most_numbers();
+    
     return (0);
 }

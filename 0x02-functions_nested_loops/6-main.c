@@ -17,5 +17,11 @@ int main(void)
     printf("%d\n", r);
     r = _abs(-98);
     printf("%d\n", r);
+    
+    print_line(0);
+    print_line(2);
+    print_line(10);
+    print_line(-4);
+    
     return (0);
 }
