@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - prints a fizz buzz program
+ * main - Prints a fizz buzz program
+ * @x: the numbeber to check
  * Return: always 0
  */
 
