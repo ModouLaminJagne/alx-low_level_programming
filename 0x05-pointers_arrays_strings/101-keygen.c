@@ -28,7 +28,7 @@ int main(void)
 
 		if ((sum - 2772) % 2 != 0)
 		{
-			diff_half++
+			diff_half++;
 		}
 		
 		for (index = 0; password[index]; index++)
