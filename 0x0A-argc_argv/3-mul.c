@@ -9,6 +9,7 @@
 int _atoi(char *s)
 {
 	int a, b, n, len, f, digit;
+
 	a = 0;
 	b = 0;
 	m = 0;
