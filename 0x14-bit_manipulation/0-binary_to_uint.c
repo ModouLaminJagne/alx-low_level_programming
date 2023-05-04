@@ -7,14 +7,14 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int m = 0;
+	int m;
 	unsigned int decimal_val = 0;
 
 	if (!b)
 	{
 		return (0);
 	}
-	while (b[m])
+	for (m = 0; b[m]; m++)
 	{
 		if (b[m] < '0' || b[m] > '1')
 		{
@@ -22,6 +22,5 @@ unsigned int binary_to_uint(const char *b)
 		}
 		decimal_val = 2 * decimal_val + (b[m] - '0');
 	}
-	m++;
 	return (decimal_val);
 }
